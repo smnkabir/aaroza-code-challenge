@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.component{
+  top: 30%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.mynav-item{
+  padding: 2rem;
+}

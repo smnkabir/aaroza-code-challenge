@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Start Simple</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body data-spy="scroll" data-target="#menu">
+
+    <!---------Start home scetion -->
+    <div id="home" class = "home">
+      <div class = "imageBox" id = "image">
+        <img src = "./img//home.jpg" class = "imageStyle"/>
+      </div>
+       <!--Navigation-->
+       <nav class=" navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Start Simple</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <!--end navigation-->
+
+        <!--start landing page section-->
+
+    <div class="caption center-block text-left">
+        <h2>STARTUP LANDING PAGE FOR YOUR PRODUCT & SERVICES</h2>
+        <br>
+        <h6>Perfect landing page to showcase your product or service.Built with Bootstrap 4.</h6>
+        <br><br>
+        <h6><span class="note-span text-uppercase">try for free</span>-Just leave your mail below and we eill get in touch</h6>
+        <br>
+        <div class="customFormGroup">
+          <input type="email" class="form-control custom-input" id="user" aria-describedby="emailHelp" placeholder="*Your Email Address">
+          <button type="button" class="btn my-btn btn-primary btn-sm btn-block">Request Free Trial</button>
+
+        </div>        
+      
+    </div>
+    
+        <!--end landing page section-->
+    </div> <!--- End Home Section -->
+    
+    <!--start work section-->
+    <div id="work">
+       
+    
+    </div>
+    <!--end work section-->
+    
+    <!--start Contact section-->
+    <div id="contact">
+        
+    </div>
+    <!---end of contact section-->
+    <!--- Script Source Files -->
+    <script type="text/javascript">
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+      document.getElementById("image").style.height = h+"px";
+      console.log(w,h);
+      console.log(document.getElementById("home"));
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+    </html>
